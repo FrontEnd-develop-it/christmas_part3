@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Responsive christmas website</title>
+</head>
+<body>
+    <header class="container" id="header">
+        <a href="index.html" class="header__logo">
+            <img src="./img/santa_logo.png" alt="santa">
+            <span>Christmas</span>
+        </a>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html" class="active_nav">Home</a></li>
+                <li><a href="#celebrate">Celebrate</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><a href="#new">New</a></li>
+                <li><img src="./img/switch_theme.png" alt="moon" class="switch_theme" id="theme-desc"></li>
+            </ul>
+        </nav>
+        <nav class="header__nav-mobile">
+            <img src="./img/switch_theme.png" alt="switch theme icon" class="switch_theme" id="theme-mob">
+            <img src="./img/burger_open.png" alt="burger menu icon" class="burger-menu" width="16" height="16">
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="./img/home.png" alt="christmas tree">
+            <div class="hero__info">
+                <h1>Merry Christmas and Happy New Year!</h1>
+                <p>Christmas and a new year is about to begin, all good wishes and successes.</p>
+                <a href="#wish" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section class="type-of-gifts">
+            <h2>Start Giving This 
+                Christmas</h2>
+            <div class="type-of-gifts__example">
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/surprise_gift.png" alt="gift">
+                    <h3>Surprise gifts</h3>
+                    <p>They are the best gifts there is.</p>
+                </div>
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/ornaments.png" alt="ornaments">
+                    <h3>Ornaments</h3>
+                    <p>Give a moment to decorate</p>
+                </div>
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/lots-of-love.png" alt="gift">
+                    <h3>Lots of love</h3>
+                    <p>Give away feelings that last forever</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="celebrate" id="celebrate">
+            <div class="celebrate__info">
+                <h2>Celebrate With A 
+                    Lot Of Love</h2>
+                <p>In this holidays, celebrate with much love and peace, offering many blessings to our loved ones, friends and neighbors, wishing them a good Christmas message.</p>
+                <a href="#wish" class="btn">Send Good Wishes</a>
+            </div>
+            <img src="./img/celebrate.png" alt="fireplace">
+        </section>
+
+        <section class="gifts" id="gifts">
+            <h2>Share A Gift</h2>
+            <div class="gifts__example">
+                <div class="gifts__example-info">
+                    <img src="./img/gingerbread.png" alt="gingerbread" class="gifts__example-info_img">
+                    <img src="./img/heart_red.png" alt="like" class="like-gift">
+                    <p class="gifts__example-info_price">$15</p>
+                    <p class="gifts__example-info_name">Gingerbread</p>
+                </div>
+                <div class="gifts__example-info">
+                    <img src="./img/santa-claus-hat.png" alt="santa claus hat" class="gifts__example-info_img">
+                    <img src="./img/heart_red.png" alt="like" class="like-gift">
+                    <p class="gifts__example-info_price">$22</p>
+                    <p class="gifts__example-info_name">Santa Claus Hat</p>
+                </div>
+                <div class="gifts__example-info">
+                    <img src="./img/cande_stick.png" alt="candy stick" class="gifts__example-info_img">
+                    <img src="./img/heart_red.png" alt="like" class="like-gift">
+                    <p class="gifts__example-info_price">$12</p>
+                    <p class="gifts__example-info_name">Candy Stick</p>
+                </div>
+                <div class="gifts__example-info">
+                    <img src="./img/christmas_tree.png" alt="christmas tree" class="gifts__example-info_img">
+                    <img src="./img/heart_red.png" alt="like" class="like-gift">
+                    <p class="gifts__example-info_price">$48</p>
+                    <p class="gifts__example-info_name">Christmas Tree</p>
+                </div>
+                <div class="gifts__example-info">
+                    <img src="./img/snowman.png" alt="snowman" class="gifts__example-info_img">
+                    <img src="./img/heart_red.png" alt="like" class="like-gift">
+                    <p class="gifts__example-info_price">$35</p>
+                    <p class="gifts__example-info_name">Snowman</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="new" id="new">
+            <h2>New Gifts</h2>
+            <div class="new__gifts">
+                <div class="new__gifts-info">
+                    <div class="new__gifts-info_img">
+                        <svg width="230" height="180" viewBox="0 0 230 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="115" cy="55" r="125" fill="#DC3845" />
+                        </svg>
+                        <img src="./img/christmas_wreath.png" alt="christmas wreath">
+                    </div>
+                    <p class="new__gifts-info_price">$18</p>
+                    <p class="new__gifts-info_name">Christmas Wreath</p>
+                    <div class="new__gifts-info_like">
+                        <img src="./img/heart_white.png" alt="like">
+                    </div>
+                </div>
+                <div class="new__gifts-info">
+                    <div class="new__gifts-info_img">
+                        <svg width="230" height="180" viewBox="0 0 230 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="115" cy="55" r="125" fill="#DC3845" />
+                        </svg>
+                        <img src="./img/reindeer.png" alt="reindeer">
+                    </div>
+                    <p class="new__gifts-info_price">$95</p>
+                    <p class="new__gifts-info_name">Reindeer</p>
+                    <div class="new__gifts-info_like">
+                        <img src="./img/heart_white.png" alt="like">
+                    </div>
+                </div>
+                <div class="new__gifts-info">
+                    <div class="new__gifts-info_img">
+                        <svg width="230" height="180" viewBox="0 0 230 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="115" cy="55" r="125" fill="#DC3845" />
+                        </svg>
+                        <img src="./img/snow-globe.png" alt="snow globe">
+                    </div>
+                    <p class="new__gifts-info_price">$20</p>
+                    <p class="new__gifts-info_name">Snow globe</p>
+                    <div class="new__gifts-info_like">
+                        <img src="./img/heart_white.png" alt="like">
+                    </div>
+                </div>
+            </div>
+            <div class="new__btns">
+                <button class="new__btns-active"></button>
+                <button class="new__btns-second"></button>
+                <button class="new__btns-third"></button>
+            </div>
+        </section>
+
+        <section class="wish" id="wish">
+            <div class="wish__form">
+                <h2>Send Good 
+                    Wishes!</h2>
+                <input type="text" name="message" id="message" placeholder="Write your message">
+                <button type="submit">Send Message</button>
+            </div>
+            <img src="./img/letter.png" alt="letter">
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="menu">
+            <div class="menu__logo">
+                <a href="index.html" class="header__logo">
+                    <img src="./img/santa_logo.png" alt="santa">
+                    <span>Christmas</span>
+                </a>
+                <p>This Christmas give a lot of love</p>
+            </div>
+
+            <div class="menu__nav">
+                <h3>Our Services</h3>
+                <div class="menu__nav-link">
+                    <p><a href="">Pricing</a></p>
+                    <p><a href="">Discounts</a></p>
+                    <p><a href="">Shipping mode</a></p>
+                </div>
+            </div>
+
+            <div class="menu__nav">
+                <h3>Support</h3>
+                <div class="menu__nav-link">
+                    <p><a href="">FAQs</a></p>
+                    <p><a href="">Support center</a></p>
+                    <p><a href="">Contact Us</a></p>
+                </div>
+            </div>
+
+            <div class="download">
+                <h3>Available On</h3>
+                <a href=""><img src="./img/google-play.png" alt="google play icon"></a>
+                <a href=""><img src="./img/app_store.png" alt="app store icon"></a>
+            </div>
+        </div>
+        <p class="copyright">&copy; Bedimcode. All rigths reserved</p>
+        <img src="./img/footer_green.png" alt="" width="120" height="132" class="footer-img-left">
+        <img src="./img/footer_red.png" alt="" width="120" height="140" class="footer-img-right">
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
